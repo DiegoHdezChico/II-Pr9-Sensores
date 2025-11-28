@@ -14,9 +14,11 @@ Por último, para poder pasar entre la escena del ejercicio 1 y el ejercicio 2, 
 A continuación se muestran los resultados de obtenidos de las mediciones dentro del laboratorio y en los jardines de la facultad.
 
 * Medición en el laboratorio:
+
 ![](/img/Ejercicio1-Medicion_laboratorio.jpg)
 
 * Medición en los jardines:
+
 ![](/img/Ejercicio1-Medicion_laboratorio.jpg)
 
 ---
@@ -28,6 +30,6 @@ También se han realizado algunas correcciones, como la proyección del vector d
 
 Para que el soldado solo se mueva cuando el teléfono esté en un cierto rando de latitud/longitud, se ha creado este [script](scripts/MovimientoSoldado.cs), que toma los valores actuales del sensor `location` y los compara con unas constantes dadas.
 
-Además, con el objetivo de hacer que el soldado se mueva con la orientación del teléfono, hemos hecho uso del `aceletometro`, añadiendo también por comodidad una pequeña **'zona muerta'** para que solo se produzca el movimiento si se supera dicho umbral.
+Además, con el objetivo de hacer que el soldado se mueva con la orientación del teléfono, hemos hecho uso del `acelerómetro`, añadiendo también por comodidad una pequeña **'zona muerta'** para que solo se produzca el movimiento si se supera dicho umbral.
 
 ![](img/Ejercicio2.gif)
